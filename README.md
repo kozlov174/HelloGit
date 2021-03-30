@@ -1,4 +1,4 @@
-# Hello-Git
+# HelloGit
 
 1. Сделать Fork этого репозитория на свой аккаунт в GitHub.
 
