@@ -19,22 +19,21 @@ namespace HelloGit
 
         private static void BubbleSort(IList<int> array)
         {
-            int buble = 0;
+            var buble = 0;
 
-            for (int i = 0; i < array.Count - 1; i++) // 
+            for (var i = 0; i < array.Count - 1; i++)  
             {
 
-                for (int j = 0; j < array.Count - 1; j++)
+                for (var j = 0; j < array.Count - 1; j++)
                 {
-                    if (array[i] > array[j])
+                    if (array[i] > array[j]) continue;
                     {
                         buble = array[i];
                         array[j] = array[i];
-                        array[j] = buble;
+                        array[i] = buble;
                     }
                 }
             }
         }
-    }
     }
 }
